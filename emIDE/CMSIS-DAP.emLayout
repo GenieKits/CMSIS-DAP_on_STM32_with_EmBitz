@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<emIDE_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="..\MAIN\usb_adapter\App\usb_device.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1466" topLine="18" />
+		</Cursor>
+	</File>
+	<File name="..\MAIN\usb_adapter\Target\usbd_conf.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1570" topLine="33" />
+		</Cursor>
+	</File>
+	<File name="..\MAIN\wrap\device.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1409" topLine="33" />
+		</Cursor>
+	</File>
+	<File name="Setup\Flash.ld" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5070" topLine="153" />
+		</Cursor>
+	</File>
+	<File name="..\MAIN\DAP_config.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1035" topLine="555" />
+		</Cursor>
+	</File>
+	<File name="Setup\startup.S" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3985" topLine="64" />
+		</Cursor>
+	</File>
+	<File name="..\USB\Core\Inc\usbd_def.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9037" topLine="222" />
+		</Cursor>
+	</File>
+	<File name="..\MAIN\dev\stm32f1xx.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6137" topLine="120" />
+		</Cursor>
+	</File>
+	<File name="..\USB\Core\Src\usbd_ctlreq.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="20929" topLine="833" />
+		</Cursor>
+	</File>
+	<File name="..\MAIN\dev\stm32f1xx_it.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3299" topLine="76" />
+		</Cursor>
+	</File>
+	<File name="..\MAIN\main.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1121" topLine="28" />
+		</Cursor>
+	</File>
+</emIDE_layout_file>

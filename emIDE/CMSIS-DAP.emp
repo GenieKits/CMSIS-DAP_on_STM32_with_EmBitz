@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<emIDE_project_file>
+	<FileVersion major="1" minor="7" />
+	<Project>
+		<Option title="CMSIS-DAP" />
+		<Option pch_mode="2" />
+		<Option compiler="armelfgcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/CMSIS-DAP" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="armelfgcc" />
+				<Compiler>
+					<Add option="-mthumb" />
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-mcpu=cortex-m3" />
+					<Add option="-ffunction-sections" />
+					<Add option="-DDEBUG=1" />
+					<Add option="-DSTM32F103xB" />
+					<Add directory="../MAIN" />
+					<Add directory="../MAIN/cmsis" />
+					<Add directory="../MAIN/dev" />
+					<Add directory="../MAIN/wrap" />
+					<Add directory="../MAIN/usb_adapter/App" />
+					<Add directory="../MAIN/usb_adapter/Target" />
+					<Add directory="../DAP/inc" />
+					<Add directory="../HAL/Inc" />
+					<Add directory="../USB/Class/CustomHID/Inc" />
+					<Add directory="../USB/Core/Inc" />
+				</Compiler>
+				<Linker>
+					<Add option="-Wl,-Map" />
+					<Add option="-Wl,${TARGET_OUTPUT_FILE}.map" />
+					<Add option="-Wl,--gc-sections" />
+					<Add option="-n" />
+					<Add option="-Wl,-cref" />
+					<Add option="-mcpu=cortex-m3" />
+					<Add option="-mthumb" />
+					<Add option="-TSetup/Flash.ld" />
+				</Linker>
+				<PostOutput>
+					<ConvertedOutput PostOutputCreate="1" />
+					<ConvertedOutput PostOutputType="HEX" />
+					<ConvertedOutput PostOutputFile="${TARGET_OUTPUT_DIR}${TARGET_OUTPUT_BASENAME}" />
+				</PostOutput>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CMSIS-DAP" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="armelfgcc" />
+				<Compiler>
+					<Add option="-mthumb" />
+					<Add option="-O2" />
+					<Add option="-mcpu=cortex-m3" />
+					<Add option="-ffunction-sections" />
+					<Add option="-DSTM32F103xB" />
+					<Add directory="../MAIN" />
+					<Add directory="../MAIN/cmsis" />
+					<Add directory="../MAIN/dev" />
+					<Add directory="../MAIN/wrap" />
+					<Add directory="../MAIN/usb_adapter/App" />
+					<Add directory="../MAIN/usb_adapter/Target" />
+					<Add directory="../DAP/inc" />
+					<Add directory="../HAL/Inc" />
+					<Add directory="../USB/Class/CustomHID/Inc" />
+					<Add directory="../USB/Core/Inc" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-Wl,-Map" />
+					<Add option="-Wl,${TARGET_OUTPUT_FILE}.map" />
+					<Add option="-Wl,--gc-sections" />
+					<Add option="-n" />
+					<Add option="-Wl,-cref" />
+					<Add option="-mcpu=cortex-m3" />
+					<Add option="-mthumb" />
+					<Add option="-TSetup/Flash.ld" />
+				</Linker>
+				<PostOutput>
+					<ConvertedOutput PostOutputCreate="1" />
+					<ConvertedOutput PostOutputType="HEX" />
+					<ConvertedOutput PostOutputFile="${TARGET_OUTPUT_DIR}${TARGET_OUTPUT_BASENAME}" />
+				</PostOutput>
+			</Target>
+		</Build>
+		<PostOutput>
+			<ConvertedOutput PostOutputCreate="0" />
+			<ConvertedOutput PostOutputType="HEX" />
+			<ConvertedOutput PostOutputFile="${TARGET_OUTPUT_DIR}${TARGET_OUTPUT_BASENAME}" />
+		</PostOutput>
+		<Unit filename="../DAP/inc/DAP.h" />
+		<Unit filename="../DAP/src/DAP.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../DAP/src/DAP_vendor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../DAP/src/JTAG_DP.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../DAP/src/SWO.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../DAP/src/SW_DP.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../HAL/Inc/Legacy/stm32_hal_legacy.h" />
+		<Unit filename="../HAL/Inc/stm32f1xx_hal.h" />
+		<Unit filename="../HAL/Inc/stm32f1xx_hal_cortex.h" />
+		<Unit filename="../HAL/Inc/stm32f1xx_hal_def.h" />
+		<Unit filename="../HAL/Inc/stm32f1xx_hal_dma.h" />
+		<Unit filename="../HAL/Inc/stm32f1xx_hal_dma_ex.h" />
+		<Unit filename="../HAL/Inc/stm32f1xx_hal_exti.h" />
+		<Unit filename="../HAL/Inc/stm32f1xx_hal_flash.h" />
+		<Unit filename="../HAL/Inc/stm32f1xx_hal_flash_ex.h" />
+		<Unit filename="../HAL/Inc/stm32f1xx_hal_gpio.h" />
+		<Unit filename="../HAL/Inc/stm32f1xx_hal_gpio_ex.h" />
+		<Unit filename="../HAL/Inc/stm32f1xx_hal_pcd.h" />
+		<Unit filename="../HAL/Inc/stm32f1xx_hal_pcd_ex.h" />
+		<Unit filename="../HAL/Inc/stm32f1xx_hal_pwr.h" />
+		<Unit filename="../HAL/Inc/stm32f1xx_hal_rcc.h" />
+		<Unit filename="../HAL/Inc/stm32f1xx_hal_rcc_ex.h" />
+		<Unit filename="../HAL/Inc/stm32f1xx_hal_spi.h" />
+		<Unit filename="../HAL/Inc/stm32f1xx_hal_tim.h" />
+		<Unit filename="../HAL/Inc/stm32f1xx_hal_tim_ex.h" />
+		<Unit filename="../HAL/Inc/stm32f1xx_hal_uart.h" />
+		<Unit filename="../HAL/Inc/stm32f1xx_ll_usb.h" />
+		<Unit filename="../HAL/Src/stm32f1xx_hal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../HAL/Src/stm32f1xx_hal_cortex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../HAL/Src/stm32f1xx_hal_dma.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../HAL/Src/stm32f1xx_hal_exti.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../HAL/Src/stm32f1xx_hal_flash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../HAL/Src/stm32f1xx_hal_flash_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../HAL/Src/stm32f1xx_hal_gpio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../HAL/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../HAL/Src/stm32f1xx_hal_pcd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../HAL/Src/stm32f1xx_hal_pcd_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../HAL/Src/stm32f1xx_hal_pwr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../HAL/Src/stm32f1xx_hal_rcc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../HAL/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../HAL/Src/stm32f1xx_hal_spi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../HAL/Src/stm32f1xx_hal_tim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../HAL/Src/stm32f1xx_hal_tim_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../HAL/Src/stm32f1xx_hal_uart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../HAL/Src/stm32f1xx_ll_usb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../MAIN/DAP_config.h" />
+		<Unit filename="../MAIN/USBD_User_HID_0.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../MAIN/cmsis/core_cm3.h" />
+		<Unit filename="../MAIN/cmsis/core_cmFunc.h" />
+		<Unit filename="../MAIN/cmsis/core_cmInstr.h" />
+		<Unit filename="../MAIN/dev/stm32f103xb.h" />
+		<Unit filename="../MAIN/dev/stm32f1xx.h" />
+		<Unit filename="../MAIN/dev/stm32f1xx_hal_conf.h" />
+		<Unit filename="../MAIN/dev/stm32f1xx_hal_msp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../MAIN/dev/stm32f1xx_it.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../MAIN/dev/stm32f1xx_it.h" />
+		<Unit filename="../MAIN/dev/system_stm32f1xx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../MAIN/dev/system_stm32f1xx.h" />
+		<Unit filename="../MAIN/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../MAIN/main.h" />
+		<Unit filename="../MAIN/osObjects.h" />
+		<Unit filename="../MAIN/usb_adapter/App/usb_device.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../MAIN/usb_adapter/App/usb_device.h" />
+		<Unit filename="../MAIN/usb_adapter/App/usbd_custom_hid_if.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../MAIN/usb_adapter/App/usbd_custom_hid_if.h" />
+		<Unit filename="../MAIN/usb_adapter/App/usbd_desc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../MAIN/usb_adapter/App/usbd_desc.h" />
+		<Unit filename="../MAIN/usb_adapter/Target/usbd_conf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../MAIN/usb_adapter/Target/usbd_conf.h" />
+		<Unit filename="../MAIN/wrap/cmsis_compiler.h" />
+		<Unit filename="../MAIN/wrap/cmsis_os2.h" />
+		<Unit filename="../MAIN/wrap/device.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../MAIN/wrap/device.h" />
+		<Unit filename="../MAIN/wrap/rl_usb.h" />
+		<Unit filename="../USB/Class/CustomHID/Inc/usbd_customhid.h" />
+		<Unit filename="../USB/Class/CustomHID/Src/usbd_customhid.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../USB/Core/Inc/usbd_core.h" />
+		<Unit filename="../USB/Core/Inc/usbd_ctlreq.h" />
+		<Unit filename="../USB/Core/Inc/usbd_def.h" />
+		<Unit filename="../USB/Core/Inc/usbd_ioreq.h" />
+		<Unit filename="../USB/Core/Src/usbd_core.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../USB/Core/Src/usbd_ctlreq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../USB/Core/Src/usbd_ioreq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Doc/README.txt" />
+		<Unit filename="Setup/Flash.ld" />
+		<Unit filename="Setup/startup.S" />
+		<Extensions>
+			<projectwizard TargetDevice="STM32F103C8" />
+			<code_completion />
+			<debugger>
+				<remote_debugging>
+					<options conn_type="1806320574" ip_address="localhost" ip_port="2331" remote_server="J-Link GDB Server" Break_at_Main="0" Break_at_Main_Symbol="main" />
+				</remote_debugging>
+				<remote_debugging target="Debug">
+					<options conn_type="0" serial_baud="115200" ip_address="localhost" ip_port="3333" remote_server="Other (External tool)" Break_at_Main="0" Break_at_Main_Symbol="main" additional_cmds="monitor halt reset&#x0A;monitor stm32f1x mass_erase 0&#x0A;load&#x0A;monitor soft_reset_halt&#x0A;" />
+				</remote_debugging>
+				<remote_debugging target="Release">
+					<options conn_type="0" serial_baud="115200" ip_address="localhost" ip_port="2331" remote_server="Other (External tool)" Break_at_Main="1" Break_at_Main_Symbol="main" additional_cmds="monitor reset&#x0A;load" />
+				</remote_debugging>
+			</debugger>
+			<J-Link>
+				<GDBServer TargetName="Debug">
+					<CmdOption UseGDBServer="0" />
+					<CmdOption TargetDevice="STM32F103C8" />
+					<CmdOption TargetInterface="0" />
+					<CmdOption InterfaceSpeed="4000" />
+					<CmdOption TargetEndian="0" />
+					<CmdOption OverrideExe="0" Filename="" />
+					<CmdOption StartServer="1" />
+					<CmdOption CloseServer="1" />
+					<CmdOption ServerIP="localhost" />
+					<CmdOption ServerPort="2331" />
+					<CmdOption UseAdvancedOptions="0" />
+					<CmdOption SelectJLink="" />
+					<CmdOption InitRegs="1" />
+					<CmdOption LocalhostOnly="1" />
+					<CmdOption Log="0" Filename="" />
+					<CmdOption Silent="0" />
+					<CmdOption StayOnTop="0" />
+					<CmdOption VerifyDownload="0" />
+					<CmdOption NoTargetTimeout="0" />
+					<CmdOption JTAGConf="0" IRPre="0" DRPre="0" />
+					<CmdOption JLinkScript="0" Filename="" />
+					<CmdOption JLinkSettings="0" Filename="" />
+					<CmdOption GDBInit="0" Filename="" />
+					<CmdOption AdditionalOptions="" />
+				</GDBServer>
+				<GDBServer TargetName="Release">
+					<CmdOption UseGDBServer="0" />
+					<CmdOption TargetDevice="STM32F103C8" />
+					<CmdOption TargetInterface="0" />
+					<CmdOption InterfaceSpeed="4000" />
+					<CmdOption TargetEndian="0" />
+					<CmdOption OverrideExe="0" Filename="" />
+					<CmdOption StartServer="1" />
+					<CmdOption CloseServer="1" />
+					<CmdOption ServerIP="localhost" />
+					<CmdOption ServerPort="2331" />
+					<CmdOption UseAdvancedOptions="0" />
+					<CmdOption SelectJLink="" />
+					<CmdOption InitRegs="1" />
+					<CmdOption LocalhostOnly="1" />
+					<CmdOption Log="0" Filename="" />
+					<CmdOption Silent="0" />
+					<CmdOption StayOnTop="0" />
+					<CmdOption VerifyDownload="0" />
+					<CmdOption NoTargetTimeout="0" />
+					<CmdOption JTAGConf="0" IRPre="0" DRPre="0" />
+					<CmdOption JLinkScript="0" Filename="" />
+					<CmdOption JLinkSettings="0" Filename="" />
+					<CmdOption GDBInit="0" Filename="" />
+					<CmdOption AdditionalOptions="" />
+				</GDBServer>
+			</J-Link>
+		</Extensions>
+	</Project>
+</emIDE_project_file>

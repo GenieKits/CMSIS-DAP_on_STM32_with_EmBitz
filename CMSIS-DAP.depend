@@ -1,0 +1,823 @@
+# depslib dependency file v1.0
+1565418084 source:d:\myworks\mydesigns\stm32s\cmsis-dap\dap\src\dap.c
+	<string.h>
+	"DAP_config.h"
+	"DAP.h"
+
+1565044950 d:\myworks\mydesigns\stm32s\cmsis-dap\src\dap_config.h
+	"RTE_Components.h"
+	"device.h"
+	"cmsis_compiler.h"
+
+1565156492 d:\myworks\mydesigns\stm32s\cmsis-dap\src\rte\rte_components.h
+
+1566196754 d:\myworks\mydesigns\stm32s\cmsis-dap\dap\inc\dap.h
+	<stddef.h>
+	<stdint.h>
+	"cmsis_compiler.h"
+
+1565047050 d:\myworks\mydesigns\stm32s\cmsis-dap\src\rte\fake\cmsis_compiler.h
+	<stdint.h>
+
+1565156536 source:d:\myworks\mydesigns\stm32s\cmsis-dap\src\main.c
+	"cmsis_os2.h"
+	"osObjects.h"
+	"rl_usb.h"
+	"DAP_config.h"
+	"DAP.h"
+
+1565048530 d:\myworks\mydesigns\stm32s\cmsis-dap\src\rte\fake\cmsis_os2.h
+
+1537736350 d:\myworks\mydesigns\stm32s\cmsis-dap\src\osobjects.h
+	"cmsis_os2.h"
+
+1565157075 d:\myworks\mydesigns\stm32s\cmsis-dap\src\rte\fake\rl_usb.h
+
+1565027438 source:d:\myworks\mydesigns\stm32s\cmsis-dap\src\system_stm32f10x.c
+	"stm32f10x.h"
+
+1565153576 d:\myworks\mydesigns\stm32s\cmsis-dap\inc\stm32f10x.h
+	"core_cm3.h"
+	"system_stm32f10x.h"
+	<stdint.h>
+	"stm32f10x_conf.h"
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\cmsis\core_cm3.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\inc\system_stm32f10x.h
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\inc\stm32f10x_conf.h
+	"stm32f10x_adc.h"
+	"stm32f10x_bkp.h"
+	"stm32f10x_can.h"
+	"stm32f10x_cec.h"
+	"stm32f10x_crc.h"
+	"stm32f10x_dac.h"
+	"stm32f10x_dbgmcu.h"
+	"stm32f10x_dma.h"
+	"stm32f10x_exti.h"
+	"stm32f10x_flash.h"
+	"stm32f10x_fsmc.h"
+	"stm32f10x_gpio.h"
+	"stm32f10x_i2c.h"
+	"stm32f10x_iwdg.h"
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+	"stm32f10x_rtc.h"
+	"stm32f10x_sdio.h"
+	"stm32f10x_spi.h"
+	"stm32f10x_tim.h"
+	"stm32f10x_usart.h"
+	"stm32f10x_wwdg.h"
+	"misc.h"
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\spl\inc\stm32f10x_adc.h
+	"stm32f10x.h"
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\spl\inc\stm32f10x_bkp.h
+	"stm32f10x.h"
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\spl\inc\stm32f10x_can.h
+	"stm32f10x.h"
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\spl\inc\stm32f10x_cec.h
+	"stm32f10x.h"
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\spl\inc\stm32f10x_crc.h
+	"stm32f10x.h"
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\spl\inc\stm32f10x_dac.h
+	"stm32f10x.h"
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\spl\inc\stm32f10x_dbgmcu.h
+	"stm32f10x.h"
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\spl\inc\stm32f10x_dma.h
+	"stm32f10x.h"
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\spl\inc\stm32f10x_exti.h
+	"stm32f10x.h"
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\spl\inc\stm32f10x_flash.h
+	"stm32f10x.h"
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\spl\inc\stm32f10x_fsmc.h
+	"stm32f10x.h"
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\spl\inc\stm32f10x_gpio.h
+	"stm32f10x.h"
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\spl\inc\stm32f10x_i2c.h
+	"stm32f10x.h"
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\spl\inc\stm32f10x_iwdg.h
+	"stm32f10x.h"
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\spl\inc\stm32f10x_pwr.h
+	"stm32f10x.h"
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\spl\inc\stm32f10x_rcc.h
+	"stm32f10x.h"
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\spl\inc\stm32f10x_rtc.h
+	"stm32f10x.h"
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\spl\inc\stm32f10x_sdio.h
+	"stm32f10x.h"
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\spl\inc\stm32f10x_spi.h
+	"stm32f10x.h"
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\spl\inc\stm32f10x_tim.h
+	"stm32f10x.h"
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\spl\inc\stm32f10x_usart.h
+	"stm32f10x.h"
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\spl\inc\stm32f10x_wwdg.h
+	"stm32f10x.h"
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\spl\inc\misc.h
+	"stm32f10x.h"
+
+1537736350 source:d:\myworks\mydesigns\stm32s\cmsis-dap\dap\src\dap_vendor.c
+	"DAP_config.h"
+	"DAP.h"
+
+1537736350 source:d:\myworks\mydesigns\stm32s\cmsis-dap\dap\src\jtag_dp.c
+	"DAP_config.h"
+	"DAP.h"
+
+1565576392 source:d:\myworks\mydesigns\stm32s\cmsis-dap\dap\src\sw_dp.c
+	"DAP_config.h"
+	"DAP.h"
+
+1537736350 source:d:\myworks\mydesigns\stm32s\cmsis-dap\dap\src\swo.c
+	"DAP_config.h"
+	"DAP.h"
+	"Driver_USART.h"
+	"cmsis_os2.h"
+
+1565153214 source:d:\myworks\mydesigns\stm32s\cmsis-dap\spl\src\stm32f10x_usb.c
+	"stm32f10x_usb.h"
+	"stm32f10x_rcc.h"
+
+1565153286 d:\myworks\mydesigns\stm32s\cmsis-dap\spl\inc\stm32f10x_usb.h
+	"stm32f10x.h"
+
+1565138757 source:d:\myworks\mydesigns\stm32s\cmsis-dap\src\stm32f1xx_it.c
+	"main.h"
+	"stm32f1xx_it.h"
+
+1565138757 d:\myworks\mydesigns\stm32s\cmsis-dap\inc\main.h
+	"stm32f1xx_hal.h"
+
+1564295290 d:\myworks\mydesigns\stm32s\cmsis-dap\hal\inc\stm32f1xx_hal.h
+	"stm32f1xx_hal_conf.h"
+
+1565138757 d:\myworks\mydesigns\stm32s\cmsis-dap\inc\stm32f1xx_hal_conf.h
+	"stm32f1xx_hal_rcc.h"
+	"stm32f1xx_hal_gpio.h"
+	"stm32f1xx_hal_exti.h"
+	"stm32f1xx_hal_dma.h"
+	"stm32f1xx_hal_eth.h"
+	"stm32f1xx_hal_can.h"
+	"Legacy/stm32f1xx_hal_can_legacy.h"
+	"stm32f1xx_hal_cec.h"
+	"stm32f1xx_hal_cortex.h"
+	"stm32f1xx_hal_adc.h"
+	"stm32f1xx_hal_crc.h"
+	"stm32f1xx_hal_dac.h"
+	"stm32f1xx_hal_flash.h"
+	"stm32f1xx_hal_sram.h"
+	"stm32f1xx_hal_nor.h"
+	"stm32f1xx_hal_i2c.h"
+	"stm32f1xx_hal_i2s.h"
+	"stm32f1xx_hal_iwdg.h"
+	"stm32f1xx_hal_pwr.h"
+	"stm32f1xx_hal_rtc.h"
+	"stm32f1xx_hal_pccard.h"
+	"stm32f1xx_hal_sd.h"
+	"stm32f1xx_hal_nand.h"
+	"stm32f1xx_hal_spi.h"
+	"stm32f1xx_hal_tim.h"
+	"stm32f1xx_hal_uart.h"
+	"stm32f1xx_hal_usart.h"
+	"stm32f1xx_hal_irda.h"
+	"stm32f1xx_hal_smartcard.h"
+	"stm32f1xx_hal_wwdg.h"
+	"stm32f1xx_hal_pcd.h"
+	"stm32f1xx_hal_hcd.h"
+	"stm32f1xx_hal_mmc.h"
+
+1564295290 d:\myworks\mydesigns\stm32s\cmsis-dap\hal\inc\stm32f1xx_hal_rcc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_rcc_ex.h"
+
+1564295290 d:\myworks\mydesigns\stm32s\cmsis-dap\hal\inc\stm32f1xx_hal_def.h
+	"stm32f1xx.h"
+	"Legacy/stm32_hal_legacy.h"
+	<stddef.h>
+
+1564295283 d:\myworks\mydesigns\stm32s\cmsis-dap\inc\stm32f1xx.h
+	"stm32f100xb.h"
+	"stm32f100xe.h"
+	"stm32f101x6.h"
+	"stm32f101xb.h"
+	"stm32f101xe.h"
+	"stm32f101xg.h"
+	"stm32f102x6.h"
+	"stm32f102xb.h"
+	"stm32f103x6.h"
+	"stm32f103xb.h"
+	"stm32f103xe.h"
+	"stm32f103xg.h"
+	"stm32f105xc.h"
+	"stm32f107xc.h"
+	"stm32f1xx_hal.h"
+
+1564295283 d:\myworks\mydesigns\stm32s\cmsis-dap\inc\stm32f103xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1564295283 d:\myworks\mydesigns\stm32s\cmsis-dap\inc\system_stm32f1xx.h
+
+1564295290 d:\myworks\mydesigns\stm32s\cmsis-dap\hal\inc\legacy\stm32_hal_legacy.h
+
+1564295290 d:\myworks\mydesigns\stm32s\cmsis-dap\hal\inc\stm32f1xx_hal_rcc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1564295290 d:\myworks\mydesigns\stm32s\cmsis-dap\hal\inc\stm32f1xx_hal_gpio.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_gpio_ex.h"
+
+1564295290 d:\myworks\mydesigns\stm32s\cmsis-dap\hal\inc\stm32f1xx_hal_gpio_ex.h
+	"stm32f1xx_hal_def.h"
+
+1564295290 d:\myworks\mydesigns\stm32s\cmsis-dap\hal\inc\stm32f1xx_hal_exti.h
+	"stm32f1xx_hal_def.h"
+
+1564295290 d:\myworks\mydesigns\stm32s\cmsis-dap\hal\inc\stm32f1xx_hal_dma.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_dma_ex.h"
+
+1564295290 d:\myworks\mydesigns\stm32s\cmsis-dap\hal\inc\stm32f1xx_hal_dma_ex.h
+	"stm32f1xx_hal_def.h"
+
+1564295290 d:\myworks\mydesigns\stm32s\cmsis-dap\hal\inc\stm32f1xx_hal_cortex.h
+	"stm32f1xx_hal_def.h"
+
+1564295290 d:\myworks\mydesigns\stm32s\cmsis-dap\hal\inc\stm32f1xx_hal_flash.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_flash_ex.h"
+
+1564295290 d:\myworks\mydesigns\stm32s\cmsis-dap\hal\inc\stm32f1xx_hal_flash_ex.h
+	"stm32f1xx_hal_def.h"
+
+1564295290 d:\myworks\mydesigns\stm32s\cmsis-dap\hal\inc\stm32f1xx_hal_pwr.h
+	"stm32f1xx_hal_def.h"
+
+1564295290 d:\myworks\mydesigns\stm32s\cmsis-dap\hal\inc\stm32f1xx_hal_spi.h
+	"stm32f1xx_hal_def.h"
+
+1564295290 d:\myworks\mydesigns\stm32s\cmsis-dap\hal\inc\stm32f1xx_hal_tim.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_tim_ex.h"
+
+1564295290 d:\myworks\mydesigns\stm32s\cmsis-dap\hal\inc\stm32f1xx_hal_tim_ex.h
+	"stm32f1xx_hal_def.h"
+
+1564295290 d:\myworks\mydesigns\stm32s\cmsis-dap\hal\inc\stm32f1xx_hal_uart.h
+	"stm32f1xx_hal_def.h"
+
+1564295290 d:\myworks\mydesigns\stm32s\cmsis-dap\hal\inc\stm32f1xx_hal_pcd.h
+	"stm32f1xx_ll_usb.h"
+	"stm32f1xx_hal_pcd_ex.h"
+
+1564295290 d:\myworks\mydesigns\stm32s\cmsis-dap\hal\inc\stm32f1xx_ll_usb.h
+	"stm32f1xx_hal_def.h"
+
+1564295290 d:\myworks\mydesigns\stm32s\cmsis-dap\hal\inc\stm32f1xx_hal_pcd_ex.h
+	"stm32f1xx_hal_def.h"
+
+1565138757 d:\myworks\mydesigns\stm32s\cmsis-dap\inc\stm32f1xx_it.h
+
+1564295290 source:d:\myworks\mydesigns\stm32s\cmsis-dap\hal\src\stm32f1xx_hal.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\myworks\mydesigns\stm32s\cmsis-dap\hal\src\stm32f1xx_hal_cortex.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\myworks\mydesigns\stm32s\cmsis-dap\hal\src\stm32f1xx_hal_dma.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\myworks\mydesigns\stm32s\cmsis-dap\hal\src\stm32f1xx_hal_exti.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\myworks\mydesigns\stm32s\cmsis-dap\hal\src\stm32f1xx_hal_flash.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\myworks\mydesigns\stm32s\cmsis-dap\hal\src\stm32f1xx_hal_flash_ex.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\myworks\mydesigns\stm32s\cmsis-dap\hal\src\stm32f1xx_hal_gpio.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\myworks\mydesigns\stm32s\cmsis-dap\hal\src\stm32f1xx_hal_gpio_ex.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\myworks\mydesigns\stm32s\cmsis-dap\hal\src\stm32f1xx_hal_pcd.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\myworks\mydesigns\stm32s\cmsis-dap\hal\src\stm32f1xx_hal_pcd_ex.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\myworks\mydesigns\stm32s\cmsis-dap\hal\src\stm32f1xx_hal_pwr.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\myworks\mydesigns\stm32s\cmsis-dap\hal\src\stm32f1xx_hal_rcc.c
+	"stm32f1xx_hal.h"
+
+1566271728 source:d:\myworks\mydesigns\stm32s\cmsis-dap\hal\src\stm32f1xx_hal_rcc_ex.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\myworks\mydesigns\stm32s\cmsis-dap\hal\src\stm32f1xx_hal_spi.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\myworks\mydesigns\stm32s\cmsis-dap\hal\src\stm32f1xx_hal_tim.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\myworks\mydesigns\stm32s\cmsis-dap\hal\src\stm32f1xx_hal_tim_ex.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\myworks\mydesigns\stm32s\cmsis-dap\hal\src\stm32f1xx_hal_uart.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\myworks\mydesigns\stm32s\cmsis-dap\hal\src\stm32f1xx_ll_usb.c
+	"stm32f1xx_hal.h"
+
+1565039546 source:d:\myworks\mydesigns\stm32s\cmsis-dap\src\rte\usb\usbd_config_0.c
+	"RTE_Components.h"
+	"USBD_Config_CustomClass_0.h"
+	"USBD_Config_CustomClass_1.h"
+	"USBD_Config_CustomClass_2.h"
+	"USBD_Config_CustomClass_3.h"
+	"USBD_Config_HID_0.h"
+	"USBD_Config_HID_1.h"
+	"USBD_Config_HID_2.h"
+	"USBD_Config_HID_3.h"
+	"USBD_Config_MSC_0.h"
+	"USBD_Config_MSC_1.h"
+	"USBD_Config_MSC_2.h"
+	"USBD_Config_MSC_3.h"
+	"USBD_Config_CDC_0.h"
+	"USBD_Config_CDC_1.h"
+	"USBD_Config_CDC_2.h"
+	"USBD_Config_CDC_3.h"
+	"USBD_Config_ADC_0.h"
+	"USBD_Config_ADC_1.h"
+	"USBD_Config_ADC_2.h"
+	"USBD_Config_ADC_3.h"
+	"usbd_config.h"
+
+1565039224 d:\myworks\mydesigns\stm32s\cmsis-dap\src\rte\usb\usbd_config_hid_0.h
+
+1565040306 d:\myworks\mydesigns\stm32s\cmsis-dap\src\rte\fake\usbd_config.h
+
+1565027438 source:d:\myworks\mydesigns\stm32s\cmsis-dap\src\startup_stm32f10x_md.s
+
+1565163669 source:d:\myworks\mydesigns\stm32s\cmsis-dap\src\stm32f1xx_hal_msp.c
+	"main.h"
+
+1564295283 source:d:\myworks\mydesigns\stm32s\cmsis-dap\src\system_stm32f1xx.c
+	"stm32f1xx.h"
+
+1565156791 source:d:\myworks\mydesigns\stm32s\cmsis-dap\src\usbd_user_hid_0.c
+	<stdint.h>
+	<string.h>
+	"cmsis_os2.h"
+	"osObjects.h"
+	"rl_usb.h"
+	"RTE\USB\USBD_Config_HID_0.h"
+	"DAP_config.h"
+	"DAP.h"
+
+1565162914 source:d:\myworks\mydesigns\stm32s\cmsis-dap\src\rte\fake\fake.c
+	"cmsis_compiler.h"
+	"cmsis_os2.h"
+	"rl_usb.h"
+	"fake.h"
+
+1565156521 d:\myworks\mydesigns\stm32s\cmsis-dap\src\rte\fake\fake.h
+	"stm32f1xx.h"
+	"stm32f103xb.h"
+	"system_stm32f1xx.h"
+	"stm32f1xx_hal.h"
+
+1565569029 d:\myworks\mydesigns\stm32s\cmsis-dap\main\src\dap_config.h
+	"RTE_Components.h"
+	"device.h"
+	"cmsis_compiler.h"
+
+1565156494 d:\myworks\mydesigns\stm32s\cmsis-dap\main\src\rte\rte_components.h
+
+1565047050 d:\myworks\mydesigns\stm32s\cmsis-dap\main\src\rte\fake\cmsis_compiler.h
+	<stdint.h>
+
+1565048530 d:\myworks\mydesigns\stm32s\cmsis-dap\main\src\rte\fake\cmsis_os2.h
+
+1565326023 d:\myworks\mydesigns\stm32s\cmsis-dap\main\inc\stm32f1xx_hal_conf.h
+	"stm32f1xx_hal_rcc.h"
+	"stm32f1xx_hal_gpio.h"
+	"stm32f1xx_hal_exti.h"
+	"stm32f1xx_hal_dma.h"
+	"stm32f1xx_hal_eth.h"
+	"stm32f1xx_hal_can.h"
+	"Legacy/stm32f1xx_hal_can_legacy.h"
+	"stm32f1xx_hal_cec.h"
+	"stm32f1xx_hal_cortex.h"
+	"stm32f1xx_hal_adc.h"
+	"stm32f1xx_hal_crc.h"
+	"stm32f1xx_hal_dac.h"
+	"stm32f1xx_hal_flash.h"
+	"stm32f1xx_hal_sram.h"
+	"stm32f1xx_hal_nor.h"
+	"stm32f1xx_hal_i2c.h"
+	"stm32f1xx_hal_i2s.h"
+	"stm32f1xx_hal_iwdg.h"
+	"stm32f1xx_hal_pwr.h"
+	"stm32f1xx_hal_rtc.h"
+	"stm32f1xx_hal_pccard.h"
+	"stm32f1xx_hal_sd.h"
+	"stm32f1xx_hal_nand.h"
+	"stm32f1xx_hal_spi.h"
+	"stm32f1xx_hal_tim.h"
+	"stm32f1xx_hal_uart.h"
+	"stm32f1xx_hal_usart.h"
+	"stm32f1xx_hal_irda.h"
+	"stm32f1xx_hal_smartcard.h"
+	"stm32f1xx_hal_wwdg.h"
+	"stm32f1xx_hal_pcd.h"
+	"stm32f1xx_hal_hcd.h"
+	"stm32f1xx_hal_mmc.h"
+
+1564295283 d:\myworks\mydesigns\stm32s\cmsis-dap\main\inc\stm32f1xx.h
+	"stm32f100xb.h"
+	"stm32f100xe.h"
+	"stm32f101x6.h"
+	"stm32f101xb.h"
+	"stm32f101xe.h"
+	"stm32f101xg.h"
+	"stm32f102x6.h"
+	"stm32f102xb.h"
+	"stm32f103x6.h"
+	"stm32f103xb.h"
+	"stm32f103xe.h"
+	"stm32f103xg.h"
+	"stm32f105xc.h"
+	"stm32f107xc.h"
+	"stm32f1xx_hal.h"
+
+1564295283 d:\myworks\mydesigns\stm32s\cmsis-dap\main\inc\stm32f103xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\main\cmsis\core_cm3.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\main\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1565027440 d:\myworks\mydesigns\stm32s\cmsis-dap\main\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1564295283 d:\myworks\mydesigns\stm32s\cmsis-dap\main\inc\system_stm32f1xx.h
+
+1565567046 source:d:\myworks\mydesigns\stm32s\cmsis-dap\main\src\main.c
+	"cmsis_os2.h"
+	"osObjects.h"
+	"rl_usb.h"
+	"DAP_config.h"
+	"DAP.h"
+
+1537736350 d:\myworks\mydesigns\stm32s\cmsis-dap\main\src\osobjects.h
+	"cmsis_os2.h"
+
+1565300143 d:\myworks\mydesigns\stm32s\cmsis-dap\main\src\rte\fake\rl_usb.h
+	"usb_device.h"
+
+1565287623 source:d:\myworks\mydesigns\stm32s\cmsis-dap\main\src\rte\fake\fake.c
+	"cmsis_compiler.h"
+	"cmsis_os2.h"
+	"rl_usb.h"
+	"fake.h"
+
+1565300064 d:\myworks\mydesigns\stm32s\cmsis-dap\main\src\rte\fake\fake.h
+	"stm32f1xx.h"
+	"stm32f103xb.h"
+	"system_stm32f1xx.h"
+	"stm32f1xx_hal.h"
+
+1565039546 source:d:\myworks\mydesigns\stm32s\cmsis-dap\main\src\rte\usb\usbd_config_0.c
+	"RTE_Components.h"
+	"USBD_Config_CustomClass_0.h"
+	"USBD_Config_CustomClass_1.h"
+	"USBD_Config_CustomClass_2.h"
+	"USBD_Config_CustomClass_3.h"
+	"USBD_Config_HID_0.h"
+	"USBD_Config_HID_1.h"
+	"USBD_Config_HID_2.h"
+	"USBD_Config_HID_3.h"
+	"USBD_Config_MSC_0.h"
+	"USBD_Config_MSC_1.h"
+	"USBD_Config_MSC_2.h"
+	"USBD_Config_MSC_3.h"
+	"USBD_Config_CDC_0.h"
+	"USBD_Config_CDC_1.h"
+	"USBD_Config_CDC_2.h"
+	"USBD_Config_CDC_3.h"
+	"USBD_Config_ADC_0.h"
+	"USBD_Config_ADC_1.h"
+	"USBD_Config_ADC_2.h"
+	"USBD_Config_ADC_3.h"
+	"usbd_config.h"
+
+1565039224 d:\myworks\mydesigns\stm32s\cmsis-dap\main\src\rte\usb\usbd_config_hid_0.h
+
+1565040306 d:\myworks\mydesigns\stm32s\cmsis-dap\main\src\rte\fake\usbd_config.h
+
+1565027438 source:d:\myworks\mydesigns\stm32s\cmsis-dap\main\src\startup_stm32f10x_md.s
+
+1565286906 source:d:\myworks\mydesigns\stm32s\cmsis-dap\main\src\stm32f1xx_hal_msp.c
+	"main.h"
+
+1565326024 d:\myworks\mydesigns\stm32s\cmsis-dap\main\inc\main.h
+	"stm32f1xx_hal.h"
+
+1565286906 source:d:\myworks\mydesigns\stm32s\cmsis-dap\main\src\stm32f1xx_it.c
+	"main.h"
+	"stm32f1xx_it.h"
+
+1565326023 d:\myworks\mydesigns\stm32s\cmsis-dap\main\inc\stm32f1xx_it.h
+
+1564295283 source:d:\myworks\mydesigns\stm32s\cmsis-dap\main\src\system_stm32f1xx.c
+	"stm32f1xx.h"
+
+1565568694 source:d:\myworks\mydesigns\stm32s\cmsis-dap\main\src\usbd_user_hid_0.c
+	<stdint.h>
+	<string.h>
+	"cmsis_os2.h"
+	"osObjects.h"
+	"rl_usb.h"
+	"DAP_config.h"
+	"DAP.h"
+
+1565326684 source:d:\myworks\mydesigns\stm32s\cmsis-dap\main\usb_adapter\app\usb_device.c
+	"usb_device.h"
+	"usbd_core.h"
+	"usbd_desc.h"
+	"usbd_customhid.h"
+	"usbd_custom_hid_if.h"
+
+1565326684 d:\myworks\mydesigns\stm32s\cmsis-dap\main\usb_adapter\app\usb_device.h
+	"stm32f1xx.h"
+	"stm32f1xx_hal.h"
+	"usbd_def.h"
+
+1564295290 d:\myworks\mydesigns\stm32s\cmsis-dap\usb\core\inc\usbd_def.h
+	"usbd_conf.h"
+
+1565574920 d:\myworks\mydesigns\stm32s\cmsis-dap\main\usb_adapter\target\usbd_conf.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"main.h"
+	"stm32f1xx.h"
+	"stm32f1xx_hal.h"
+
+1564295290 d:\myworks\mydesigns\stm32s\cmsis-dap\usb\core\inc\usbd_core.h
+	"usbd_conf.h"
+	"usbd_def.h"
+	"usbd_ioreq.h"
+	"usbd_ctlreq.h"
+
+1564295290 d:\myworks\mydesigns\stm32s\cmsis-dap\usb\core\inc\usbd_ioreq.h
+	"usbd_def.h"
+	"usbd_core.h"
+
+1564295290 d:\myworks\mydesigns\stm32s\cmsis-dap\usb\core\inc\usbd_ctlreq.h
+	"usbd_def.h"
+
+1565326684 d:\myworks\mydesigns\stm32s\cmsis-dap\main\usb_adapter\app\usbd_desc.h
+	"usbd_def.h"
+
+1565575098 d:\myworks\mydesigns\stm32s\cmsis-dap\usb\class\customhid\inc\usbd_customhid.h
+	"usbd_ioreq.h"
+
+1565326684 d:\myworks\mydesigns\stm32s\cmsis-dap\main\usb_adapter\app\usbd_custom_hid_if.h
+	"usbd_customhid.h"
+
+1565574152 source:d:\myworks\mydesigns\stm32s\cmsis-dap\main\usb_adapter\app\usbd_custom_hid_if.c
+	"usbd_custom_hid_if.h"
+
+1565574654 source:d:\myworks\mydesigns\stm32s\cmsis-dap\main\usb_adapter\app\usbd_desc.c
+	"usbd_core.h"
+	"usbd_desc.h"
+	"usbd_conf.h"
+
+1565326684 source:d:\myworks\mydesigns\stm32s\cmsis-dap\main\usb_adapter\target\usbd_conf.c
+	"stm32f1xx.h"
+	"stm32f1xx_hal.h"
+	"usbd_def.h"
+	"usbd_core.h"
+	"usbd_customhid.h"
+
+1566271844 source:d:\myworks\mydesigns\stm32s\cmsis-dap\usb\class\customhid\src\usbd_customhid.c
+	"usbd_customhid.h"
+	"usbd_ctlreq.h"
+
+1564295290 source:d:\myworks\mydesigns\stm32s\cmsis-dap\usb\core\src\usbd_core.c
+	"usbd_core.h"
+
+1564295290 source:d:\myworks\mydesigns\stm32s\cmsis-dap\usb\core\src\usbd_ctlreq.c
+	"usbd_ctlreq.h"
+	"usbd_ioreq.h"
+
+1564295290 source:d:\myworks\mydesigns\stm32s\cmsis-dap\usb\core\src\usbd_ioreq.c
+	"usbd_ioreq.h"
+
+1564295284 d:\myworks\mydesigns\stm32s\cmsis-dap\main\dev\stm32f1xx.h
+	"stm32f100xb.h"
+	"stm32f100xe.h"
+	"stm32f101x6.h"
+	"stm32f101xb.h"
+	"stm32f101xe.h"
+	"stm32f101xg.h"
+	"stm32f102x6.h"
+	"stm32f102xb.h"
+	"stm32f103x6.h"
+	"stm32f103xb.h"
+	"stm32f103xe.h"
+	"stm32f103xg.h"
+	"stm32f105xc.h"
+	"stm32f107xc.h"
+	"stm32f1xx_hal.h"
+
+1564295284 d:\myworks\mydesigns\stm32s\cmsis-dap\main\dev\stm32f103xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1564295284 d:\myworks\mydesigns\stm32s\cmsis-dap\main\dev\system_stm32f1xx.h
+
+1565568386 d:\myworks\mydesigns\stm32s\cmsis-dap\main\src\wrap\device.h
+	"main.h"
+	"stm32f1xx.h"
+	"stm32f103xb.h"
+	"system_stm32f1xx.h"
+	"stm32f1xx_hal.h"
+	"usbd_customhid.h"
+
+1565419508 d:\myworks\mydesigns\stm32s\cmsis-dap\main\src\wrap\cmsis_compiler.h
+	<stdint.h>
+
+1565048530 d:\myworks\mydesigns\stm32s\cmsis-dap\main\src\wrap\cmsis_os2.h
+
+1565027438 source:d:\myworks\mydesigns\stm32s\cmsis-dap\main\dev\startup_stm32f10x_md.s
+
+1565326024 source:d:\myworks\mydesigns\stm32s\cmsis-dap\main\dev\stm32f1xx_hal_msp.c
+	"main.h"
+
+1566253708 source:d:\myworks\mydesigns\stm32s\cmsis-dap\main\dev\stm32f1xx_it.c
+	"main.h"
+	"stm32f1xx_it.h"
+
+1564295284 source:d:\myworks\mydesigns\stm32s\cmsis-dap\main\dev\system_stm32f1xx.c
+	"stm32f1xx.h"
+
+1565568134 d:\myworks\mydesigns\stm32s\cmsis-dap\main\src\wrap\rl_usb.h
+	"usb_device.h"
+
+1565572900 source:d:\myworks\mydesigns\stm32s\cmsis-dap\main\src\wrap\device.c
+	"cmsis_compiler.h"
+	"cmsis_os2.h"
+	"rl_usb.h"
+	"device.h"
+
+1564295288 d:\myworks\mydesigns\stm32s\cmsis-dap\hal\inc\stm32f1xx_hal_smartcard.h
+	"stm32f1xx_hal_def.h"
+
+1564295288 source:d:\myworks\mydesigns\stm32s\cmsis-dap\hal\src\stm32f1xx_hal_smartcard.c
+	"stm32f1xx_hal.h"
+
+1565326024 d:\myworks\mydesigns\stm32s\cmsis-dap\main\src\main.h
+	"stm32f1xx_hal.h"
+
+1566271640 d:\myworks\mydesigns\stm32s\cmsis-dap\main\dev\stm32f1xx_hal_conf.h
+	"stm32f1xx_hal_rcc.h"
+	"stm32f1xx_hal_gpio.h"
+	"stm32f1xx_hal_exti.h"
+	"stm32f1xx_hal_dma.h"
+	"stm32f1xx_hal_eth.h"
+	"stm32f1xx_hal_can.h"
+	"Legacy/stm32f1xx_hal_can_legacy.h"
+	"stm32f1xx_hal_cec.h"
+	"stm32f1xx_hal_cortex.h"
+	"stm32f1xx_hal_adc.h"
+	"stm32f1xx_hal_crc.h"
+	"stm32f1xx_hal_dac.h"
+	"stm32f1xx_hal_flash.h"
+	"stm32f1xx_hal_sram.h"
+	"stm32f1xx_hal_nor.h"
+	"stm32f1xx_hal_i2c.h"
+	"stm32f1xx_hal_i2s.h"
+	"stm32f1xx_hal_iwdg.h"
+	"stm32f1xx_hal_pwr.h"
+	"stm32f1xx_hal_rtc.h"
+	"stm32f1xx_hal_pccard.h"
+	"stm32f1xx_hal_sd.h"
+	"stm32f1xx_hal_nand.h"
+	"stm32f1xx_hal_spi.h"
+	"stm32f1xx_hal_tim.h"
+	"stm32f1xx_hal_uart.h"
+	"stm32f1xx_hal_usart.h"
+	"stm32f1xx_hal_irda.h"
+	"stm32f1xx_hal_smartcard.h"
+	"stm32f1xx_hal_wwdg.h"
+	"stm32f1xx_hal_pcd.h"
+	"stm32f1xx_hal_hcd.h"
+	"stm32f1xx_hal_mmc.h"
+
+1565326024 d:\myworks\mydesigns\stm32s\cmsis-dap\main\dev\stm32f1xx_it.h
+
+1566268288 d:\myworks\mydesigns\stm32s\cmsis-dap\main\dap_config.h
+	"RTE_Components.h"
+	"device.h"
+	"cmsis_compiler.h"
+
+1566268022 d:\myworks\mydesigns\stm32s\cmsis-dap\main\wrap\device.h
+	"main.h"
+	"stm32f1xx.h"
+	"stm32f103xb.h"
+	"system_stm32f1xx.h"
+	"stm32f1xx_hal.h"
+	"usbd_customhid.h"
+
+1565326026 d:\myworks\mydesigns\stm32s\cmsis-dap\main\main.h
+	"stm32f1xx_hal.h"
+
+1566273452 d:\myworks\mydesigns\stm32s\cmsis-dap\main\wrap\cmsis_compiler.h
+	<stdint.h>
+	"device.h"
+
+1566270048 d:\myworks\mydesigns\stm32s\cmsis-dap\main\wrap\cmsis_os2.h
+
+1566268330 source:d:\myworks\mydesigns\stm32s\cmsis-dap\main\main.c
+	"cmsis_os2.h"
+	"osObjects.h"
+	"rl_usb.h"
+	"DAP_config.h"
+	"DAP.h"
+
+1537736350 d:\myworks\mydesigns\stm32s\cmsis-dap\main\osobjects.h
+	"cmsis_os2.h"
+
+1565579482 d:\myworks\mydesigns\stm32s\cmsis-dap\main\wrap\rl_usb.h
+	"usb_device.h"
+
+1565568696 source:d:\myworks\mydesigns\stm32s\cmsis-dap\main\usbd_user_hid_0.c
+	<stdint.h>
+	<string.h>
+	"cmsis_os2.h"
+	"osObjects.h"
+	"rl_usb.h"
+	"DAP_config.h"
+	"DAP.h"
+
+1566271812 source:d:\myworks\mydesigns\stm32s\cmsis-dap\main\wrap\device.c
+	"cmsis_compiler.h"
+	"cmsis_os2.h"
+	"rl_usb.h"
+	"device.h"
+
+1565851575 source:d:\myworks\mydesigns\stm32s\cmsis-dap\startup_armcm3.s
+
+1565853360 source:d:\myworks\mydesigns\stm32s\cmsis-dap\startup_stm32f10x_md.s
+

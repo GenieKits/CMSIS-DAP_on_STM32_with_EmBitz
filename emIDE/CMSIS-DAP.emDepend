@@ -1,0 +1,411 @@
+# depslib dependency file v1.0
+1565732136 source:d:\cmsis-dap\main\src\main.c
+	"cmsis_os2.h"
+	"osObjects.h"
+	"rl_usb.h"
+	"DAP_config.h"
+	"DAP.h"
+
+1565732174 d:\cmsis-dap\main\src\wrap\cmsis_os2.h
+
+1537736350 d:\cmsis-dap\main\src\osobjects.h
+	"cmsis_os2.h"
+
+1565579482 d:\cmsis-dap\main\src\wrap\rl_usb.h
+	"usb_device.h"
+
+1565326684 d:\cmsis-dap\main\usb_adapter\app\usb_device.h
+	"stm32f1xx.h"
+	"stm32f1xx_hal.h"
+	"usbd_def.h"
+
+1564295284 d:\cmsis-dap\main\dev\stm32f1xx.h
+	"stm32f100xb.h"
+	"stm32f100xe.h"
+	"stm32f101x6.h"
+	"stm32f101xb.h"
+	"stm32f101xe.h"
+	"stm32f101xg.h"
+	"stm32f102x6.h"
+	"stm32f102xb.h"
+	"stm32f103x6.h"
+	"stm32f103xb.h"
+	"stm32f103xe.h"
+	"stm32f103xg.h"
+	"stm32f105xc.h"
+	"stm32f107xc.h"
+	"stm32f1xx_hal.h"
+
+1564295284 d:\cmsis-dap\main\dev\stm32f103xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1565027440 d:\cmsis-dap\main\cmsis\core_cm3.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+
+1565027440 d:\cmsis-dap\main\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1565027440 d:\cmsis-dap\main\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1564295284 d:\cmsis-dap\main\dev\system_stm32f1xx.h
+
+1564295290 d:\cmsis-dap\hal\inc\stm32f1xx_hal.h
+	"stm32f1xx_hal_conf.h"
+
+1565326024 d:\cmsis-dap\main\dev\stm32f1xx_hal_conf.h
+	"stm32f1xx_hal_rcc.h"
+	"stm32f1xx_hal_gpio.h"
+	"stm32f1xx_hal_exti.h"
+	"stm32f1xx_hal_dma.h"
+	"stm32f1xx_hal_eth.h"
+	"stm32f1xx_hal_can.h"
+	"Legacy/stm32f1xx_hal_can_legacy.h"
+	"stm32f1xx_hal_cec.h"
+	"stm32f1xx_hal_cortex.h"
+	"stm32f1xx_hal_adc.h"
+	"stm32f1xx_hal_crc.h"
+	"stm32f1xx_hal_dac.h"
+	"stm32f1xx_hal_flash.h"
+	"stm32f1xx_hal_sram.h"
+	"stm32f1xx_hal_nor.h"
+	"stm32f1xx_hal_i2c.h"
+	"stm32f1xx_hal_i2s.h"
+	"stm32f1xx_hal_iwdg.h"
+	"stm32f1xx_hal_pwr.h"
+	"stm32f1xx_hal_rtc.h"
+	"stm32f1xx_hal_pccard.h"
+	"stm32f1xx_hal_sd.h"
+	"stm32f1xx_hal_nand.h"
+	"stm32f1xx_hal_spi.h"
+	"stm32f1xx_hal_tim.h"
+	"stm32f1xx_hal_uart.h"
+	"stm32f1xx_hal_usart.h"
+	"stm32f1xx_hal_irda.h"
+	"stm32f1xx_hal_smartcard.h"
+	"stm32f1xx_hal_wwdg.h"
+	"stm32f1xx_hal_pcd.h"
+	"stm32f1xx_hal_hcd.h"
+	"stm32f1xx_hal_mmc.h"
+
+1564295290 d:\cmsis-dap\hal\inc\stm32f1xx_hal_rcc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_rcc_ex.h"
+
+1564295290 d:\cmsis-dap\hal\inc\stm32f1xx_hal_def.h
+	"stm32f1xx.h"
+	"Legacy/stm32_hal_legacy.h"
+	<stddef.h>
+
+1564295290 d:\cmsis-dap\hal\inc\legacy\stm32_hal_legacy.h
+
+1564295290 d:\cmsis-dap\hal\inc\stm32f1xx_hal_rcc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1564295290 d:\cmsis-dap\hal\inc\stm32f1xx_hal_gpio.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_gpio_ex.h"
+
+1564295290 d:\cmsis-dap\hal\inc\stm32f1xx_hal_gpio_ex.h
+	"stm32f1xx_hal_def.h"
+
+1564295290 d:\cmsis-dap\hal\inc\stm32f1xx_hal_exti.h
+	"stm32f1xx_hal_def.h"
+
+1564295290 d:\cmsis-dap\hal\inc\stm32f1xx_hal_dma.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_dma_ex.h"
+
+1564295290 d:\cmsis-dap\hal\inc\stm32f1xx_hal_dma_ex.h
+	"stm32f1xx_hal_def.h"
+
+1564295290 d:\cmsis-dap\hal\inc\stm32f1xx_hal_cortex.h
+	"stm32f1xx_hal_def.h"
+
+1564295290 d:\cmsis-dap\hal\inc\stm32f1xx_hal_flash.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_flash_ex.h"
+
+1564295290 d:\cmsis-dap\hal\inc\stm32f1xx_hal_flash_ex.h
+	"stm32f1xx_hal_def.h"
+
+1564295290 d:\cmsis-dap\hal\inc\stm32f1xx_hal_pwr.h
+	"stm32f1xx_hal_def.h"
+
+1564295290 d:\cmsis-dap\hal\inc\stm32f1xx_hal_spi.h
+	"stm32f1xx_hal_def.h"
+
+1564295290 d:\cmsis-dap\hal\inc\stm32f1xx_hal_tim.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_tim_ex.h"
+
+1564295290 d:\cmsis-dap\hal\inc\stm32f1xx_hal_tim_ex.h
+	"stm32f1xx_hal_def.h"
+
+1564295290 d:\cmsis-dap\hal\inc\stm32f1xx_hal_uart.h
+	"stm32f1xx_hal_def.h"
+
+1564295290 d:\cmsis-dap\hal\inc\stm32f1xx_hal_pcd.h
+	"stm32f1xx_ll_usb.h"
+	"stm32f1xx_hal_pcd_ex.h"
+
+1564295290 d:\cmsis-dap\hal\inc\stm32f1xx_ll_usb.h
+	"stm32f1xx_hal_def.h"
+
+1564295290 d:\cmsis-dap\hal\inc\stm32f1xx_hal_pcd_ex.h
+	"stm32f1xx_hal_def.h"
+
+1564295290 d:\cmsis-dap\usb\core\inc\usbd_def.h
+	"usbd_conf.h"
+
+1565574920 d:\cmsis-dap\main\usb_adapter\target\usbd_conf.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"main.h"
+	"stm32f1xx.h"
+	"stm32f1xx_hal.h"
+
+1565326026 d:\cmsis-dap\main\src\main.h
+	"stm32f1xx_hal.h"
+
+1565580334 d:\cmsis-dap\main\src\dap_config.h
+	"RTE_Components.h"
+	"device.h"
+	"cmsis_compiler.h"
+
+1565568388 d:\cmsis-dap\main\src\wrap\device.h
+	"main.h"
+	"stm32f1xx.h"
+	"stm32f103xb.h"
+	"system_stm32f1xx.h"
+	"stm32f1xx_hal.h"
+	"usbd_customhid.h"
+
+1565575098 d:\cmsis-dap\usb\class\customhid\inc\usbd_customhid.h
+	"usbd_ioreq.h"
+
+1564295290 d:\cmsis-dap\usb\core\inc\usbd_ioreq.h
+	"usbd_def.h"
+	"usbd_core.h"
+
+1564295290 d:\cmsis-dap\usb\core\inc\usbd_core.h
+	"usbd_conf.h"
+	"usbd_def.h"
+	"usbd_ioreq.h"
+	"usbd_ctlreq.h"
+
+1564295290 d:\cmsis-dap\usb\core\inc\usbd_ctlreq.h
+	"usbd_def.h"
+
+1565732456 d:\cmsis-dap\main\src\wrap\cmsis_compiler.h
+	<stdint.h>
+
+1566196754 d:\cmsis-dap\dap\inc\dap.h
+	<stddef.h>
+	<stdint.h>
+	"cmsis_compiler.h"
+
+1565568696 source:d:\cmsis-dap\main\src\usbd_user_hid_0.c
+	<stdint.h>
+	<string.h>
+	"cmsis_os2.h"
+	"osObjects.h"
+	"rl_usb.h"
+	"DAP_config.h"
+	"DAP.h"
+
+1565418084 source:d:\cmsis-dap\dap\src\dap.c
+	<string.h>
+	"DAP_config.h"
+	"DAP.h"
+
+1537736350 source:d:\cmsis-dap\dap\src\dap_vendor.c
+	"DAP_config.h"
+	"DAP.h"
+
+1537736350 source:d:\cmsis-dap\dap\src\jtag_dp.c
+	"DAP_config.h"
+	"DAP.h"
+
+1565576392 source:d:\cmsis-dap\dap\src\sw_dp.c
+	"DAP_config.h"
+	"DAP.h"
+
+1537736350 source:d:\cmsis-dap\dap\src\swo.c
+	"DAP_config.h"
+	"DAP.h"
+	"Driver_USART.h"
+	"cmsis_os2.h"
+
+1564295290 source:d:\cmsis-dap\hal\src\stm32f1xx_hal.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\cmsis-dap\hal\src\stm32f1xx_hal_cortex.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\cmsis-dap\hal\src\stm32f1xx_hal_dma.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\cmsis-dap\hal\src\stm32f1xx_hal_exti.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\cmsis-dap\hal\src\stm32f1xx_hal_flash.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\cmsis-dap\hal\src\stm32f1xx_hal_flash_ex.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\cmsis-dap\hal\src\stm32f1xx_hal_gpio.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\cmsis-dap\hal\src\stm32f1xx_hal_gpio_ex.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\cmsis-dap\hal\src\stm32f1xx_hal_pcd.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\cmsis-dap\hal\src\stm32f1xx_hal_pcd_ex.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\cmsis-dap\hal\src\stm32f1xx_hal_pwr.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\cmsis-dap\hal\src\stm32f1xx_hal_rcc.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\cmsis-dap\hal\src\stm32f1xx_hal_rcc_ex.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\cmsis-dap\hal\src\stm32f1xx_hal_spi.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\cmsis-dap\hal\src\stm32f1xx_hal_tim.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\cmsis-dap\hal\src\stm32f1xx_hal_tim_ex.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\cmsis-dap\hal\src\stm32f1xx_hal_uart.c
+	"stm32f1xx_hal.h"
+
+1564295290 source:d:\cmsis-dap\hal\src\stm32f1xx_ll_usb.c
+	"stm32f1xx_hal.h"
+
+1565326024 source:d:\cmsis-dap\main\dev\stm32f1xx_hal_msp.c
+	"main.h"
+
+1565326024 source:d:\cmsis-dap\main\dev\stm32f1xx_it.c
+	"main.h"
+	"stm32f1xx_it.h"
+
+1565326024 d:\cmsis-dap\main\dev\stm32f1xx_it.h
+
+1564295284 source:d:\cmsis-dap\main\dev\system_stm32f1xx.c
+	"stm32f1xx.h"
+
+1565733484 source:d:\cmsis-dap\main\src\wrap\device.c
+	"cmsis_compiler.h"
+	"cmsis_os2.h"
+	"rl_usb.h"
+	"device.h"
+
+1565326684 source:d:\cmsis-dap\main\usb_adapter\app\usb_device.c
+	"usb_device.h"
+	"usbd_core.h"
+	"usbd_desc.h"
+	"usbd_customhid.h"
+	"usbd_custom_hid_if.h"
+
+1565326684 d:\cmsis-dap\main\usb_adapter\app\usbd_desc.h
+	"usbd_def.h"
+
+1565326684 d:\cmsis-dap\main\usb_adapter\app\usbd_custom_hid_if.h
+	"usbd_customhid.h"
+
+1565574152 source:d:\cmsis-dap\main\usb_adapter\app\usbd_custom_hid_if.c
+	"usbd_custom_hid_if.h"
+
+1565574654 source:d:\cmsis-dap\main\usb_adapter\app\usbd_desc.c
+	"usbd_core.h"
+	"usbd_desc.h"
+	"usbd_conf.h"
+
+1565326684 source:d:\cmsis-dap\main\usb_adapter\target\usbd_conf.c
+	"stm32f1xx.h"
+	"stm32f1xx_hal.h"
+	"usbd_def.h"
+	"usbd_core.h"
+	"usbd_customhid.h"
+
+1565575592 source:d:\cmsis-dap\usb\class\customhid\src\usbd_customhid.c
+	"usbd_customhid.h"
+	"usbd_ctlreq.h"
+
+1564295290 source:d:\cmsis-dap\usb\core\src\usbd_core.c
+	"usbd_core.h"
+
+1564295290 source:d:\cmsis-dap\usb\core\src\usbd_ctlreq.c
+	"usbd_ctlreq.h"
+	"usbd_ioreq.h"
+
+1564295290 source:d:\cmsis-dap\usb\core\src\usbd_ioreq.c
+	"usbd_ioreq.h"
+
+1565752634 source:d:\cmsis-dap\emide\setup\startup.s
+
+1566196926 d:\cmsis-dap\main\dap_config.h
+	"RTE_Components.h"
+	"device.h"
+	"cmsis_compiler.h"
+
+1565568388 d:\cmsis-dap\main\wrap\device.h
+	"main.h"
+	"stm32f1xx.h"
+	"stm32f103xb.h"
+	"system_stm32f1xx.h"
+	"stm32f1xx_hal.h"
+	"usbd_customhid.h"
+
+1565326026 d:\cmsis-dap\main\main.h
+	"stm32f1xx_hal.h"
+
+1565732456 d:\cmsis-dap\main\wrap\cmsis_compiler.h
+	<stdint.h>
+
+1565732174 d:\cmsis-dap\main\wrap\cmsis_os2.h
+
+1565732136 source:d:\cmsis-dap\main\main.c
+	"cmsis_os2.h"
+	"osObjects.h"
+	"rl_usb.h"
+	"DAP_config.h"
+	"DAP.h"
+
+1537736350 d:\cmsis-dap\main\osobjects.h
+	"cmsis_os2.h"
+
+1565579482 d:\cmsis-dap\main\wrap\rl_usb.h
+	"usb_device.h"
+
+1565568696 source:d:\cmsis-dap\main\usbd_user_hid_0.c
+	<stdint.h>
+	<string.h>
+	"cmsis_os2.h"
+	"osObjects.h"
+	"rl_usb.h"
+	"DAP_config.h"
+	"DAP.h"
+
+1566001838 source:d:\cmsis-dap\main\wrap\device.c
+	"cmsis_compiler.h"
+	"cmsis_os2.h"
+	"rl_usb.h"
+	"device.h"
+

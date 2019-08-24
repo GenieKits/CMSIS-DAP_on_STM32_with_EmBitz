@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EmBitz_project_file>
+	<EmBitzVersion release="1.11" revision="0" />
+	<FileVersion major="1" minor="0" />
+	<Project>
+		<Option title="CMSIS-DAP" />
+		<Option pch_mode="2" />
+		<Option compiler="armgcc_eb" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\CMSIS-DAP.elf" />
+				<Option object_output="obj\Debug\" />
+				<Option type="0" />
+				<Option compiler="armgcc_eb" />
+				<Option projectDeviceOptionsRelation="0" />
+				<Compiler>
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+					<Add option="-fdata-sections" />
+					<Add option="-ffunction-sections" />
+					<Add option="-O0" />
+					<Add option="-g3" />
+					<Add symbol="STM32F103xB" />
+				</Compiler>
+				<Cpp>
+					<Add option="-Wall" />
+					<Add option="-fdata-sections" />
+					<Add option="-ffunction-sections" />
+					<Add option="-O0" />
+					<Add option="-g3" />
+				</Cpp>
+				<Assembler>
+					<Add option="-Wa,--gdwarf-2" />
+				</Assembler>
+				<Linker>
+					<Add option="-Wl,--gc-sections" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\CMSIS-DAP.elf" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option create_hex="1" />
+				<Option compiler="armgcc_eb" />
+				<Option projectDeviceOptionsRelation="0" />
+				<Compiler>
+					<Add option="-fdata-sections" />
+					<Add option="-ffunction-sections" />
+					<Add option="-Os" />
+					<Add option="-g2" />
+					<Add symbol="STM32F103xB" />
+				</Compiler>
+				<Cpp>
+					<Add option="-fdata-sections" />
+					<Add option="-ffunction-sections" />
+					<Add option="-O2" />
+					<Add option="-g2" />
+				</Cpp>
+				<Assembler>
+					<Add option="-Wa,--no-warn" />
+				</Assembler>
+				<Linker>
+					<Add option="-Wl,--gc-sections" />
+				</Linker>
+			</Target>
+		</Build>
+		<Device>
+			<Add option="$device=cortex-m3" />
+			<Add option="$stack=0x0100" />
+			<Add option="$heap=0x0000" />
+			<Add option="$lscript=./stm32f103c8_flash.ld" />
+		</Device>
+		<Compiler>
+			<Add option="-mfloat-abi=soft" />
+			<Add option="-fno-strict-aliasing" />
+			<Add symbol="STM32F103C8" />
+			<Add symbol="STM32F10X_MD" />
+			<Add symbol="USE_STDPERIPH_DRIVER" />
+			<Add directory=".\inc" />
+			<Add directory=".\src" />
+			<Add directory=".\cmsis" />
+			<Add directory=".\SPL\inc" />
+			<Add directory=".\SPL\src" />
+		</Compiler>
+		<Linker>
+			<Add option="-eb_start_files" />
+			<Add option="-eb_lib=n" />
+		</Linker>
+		<Unit filename="DAP\inc\DAP.h" />
+		<Unit filename="DAP\src\DAP.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="DAP\src\DAP_vendor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="DAP\src\JTAG_DP.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="DAP\src\SW_DP.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="DAP\src\SWO.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Inc\Legacy\stm32_hal_legacy.h" />
+		<Unit filename="HAL\Inc\stm32f1xx_hal.h" />
+		<Unit filename="HAL\Inc\stm32f1xx_hal_cortex.h" />
+		<Unit filename="HAL\Inc\stm32f1xx_hal_def.h" />
+		<Unit filename="HAL\Inc\stm32f1xx_hal_dma.h" />
+		<Unit filename="HAL\Inc\stm32f1xx_hal_dma_ex.h" />
+		<Unit filename="HAL\Inc\stm32f1xx_hal_exti.h" />
+		<Unit filename="HAL\Inc\stm32f1xx_hal_flash.h" />
+		<Unit filename="HAL\Inc\stm32f1xx_hal_flash_ex.h" />
+		<Unit filename="HAL\Inc\stm32f1xx_hal_gpio.h" />
+		<Unit filename="HAL\Inc\stm32f1xx_hal_gpio_ex.h" />
+		<Unit filename="HAL\Inc\stm32f1xx_hal_pcd.h" />
+		<Unit filename="HAL\Inc\stm32f1xx_hal_pcd_ex.h" />
+		<Unit filename="HAL\Inc\stm32f1xx_hal_pwr.h" />
+		<Unit filename="HAL\Inc\stm32f1xx_hal_rcc.h" />
+		<Unit filename="HAL\Inc\stm32f1xx_hal_rcc_ex.h" />
+		<Unit filename="HAL\Inc\stm32f1xx_hal_spi.h" />
+		<Unit filename="HAL\Inc\stm32f1xx_hal_tim.h" />
+		<Unit filename="HAL\Inc\stm32f1xx_hal_tim_ex.h" />
+		<Unit filename="HAL\Inc\stm32f1xx_hal_uart.h" />
+		<Unit filename="HAL\Inc\stm32f1xx_ll_usb.h" />
+		<Unit filename="HAL\Src\stm32f1xx_hal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f1xx_hal_cortex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f1xx_hal_dma.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f1xx_hal_exti.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f1xx_hal_flash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f1xx_hal_flash_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f1xx_hal_gpio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f1xx_hal_gpio_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f1xx_hal_pcd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f1xx_hal_pcd_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f1xx_hal_pwr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f1xx_hal_rcc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f1xx_hal_rcc_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f1xx_hal_spi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f1xx_hal_tim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f1xx_hal_tim_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f1xx_hal_uart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f1xx_ll_usb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MAIN\cmsis\core_cm3.h" />
+		<Unit filename="MAIN\cmsis\core_cmFunc.h" />
+		<Unit filename="MAIN\cmsis\core_cmInstr.h" />
+		<Unit filename="MAIN\DAP_config.h" />
+		<Unit filename="MAIN\dev\stm32f103xb.h" />
+		<Unit filename="MAIN\dev\stm32f1xx.h" />
+		<Unit filename="MAIN\dev\stm32f1xx_hal_conf.h" />
+		<Unit filename="MAIN\dev\stm32f1xx_hal_msp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MAIN\dev\stm32f1xx_it.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MAIN\dev\stm32f1xx_it.h" />
+		<Unit filename="MAIN\dev\system_stm32f1xx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MAIN\dev\system_stm32f1xx.h" />
+		<Unit filename="MAIN\main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MAIN\main.h" />
+		<Unit filename="MAIN\osObjects.h" />
+		<Unit filename="MAIN\usb_adapter\App\usb_device.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MAIN\usb_adapter\App\usb_device.h" />
+		<Unit filename="MAIN\usb_adapter\App\usbd_custom_hid_if.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MAIN\usb_adapter\App\usbd_custom_hid_if.h" />
+		<Unit filename="MAIN\usb_adapter\App\usbd_desc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MAIN\usb_adapter\App\usbd_desc.h" />
+		<Unit filename="MAIN\usb_adapter\Target\usbd_conf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MAIN\usb_adapter\Target\usbd_conf.h" />
+		<Unit filename="MAIN\USBD_User_HID_0.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MAIN\wrap\cmsis_compiler.h" />
+		<Unit filename="MAIN\wrap\cmsis_os2.h" />
+		<Unit filename="MAIN\wrap\device.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MAIN\wrap\device.h" />
+		<Unit filename="MAIN\wrap\rl_usb.h" />
+		<Unit filename="readme.txt" />
+		<Unit filename="startup_stm32f10x_md.S">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stm32f103c8_flash.ld" />
+		<Unit filename="stm32f103c8_sram.ld" />
+		<Unit filename="USB\Class\CustomHID\Inc\usbd_customhid.h" />
+		<Unit filename="USB\Class\CustomHID\Src\usbd_customhid.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="USB\Core\Inc\usbd_core.h" />
+		<Unit filename="USB\Core\Inc\usbd_ctlreq.h" />
+		<Unit filename="USB\Core\Inc\usbd_def.h" />
+		<Unit filename="USB\Core\Inc\usbd_ioreq.h" />
+		<Unit filename="USB\Core\Src\usbd_core.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="USB\Core\Src\usbd_ctlreq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="USB\Core\Src\usbd_ioreq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger>
+				<target_debugging_settings target="Debug" active_interface="Generic">
+					<debug_interface interface_id="Generic" ip_address="localhost" ip_port="3333" path="${EMBITZ}\share\contrib\openocd\bin" executable="openocd.exe" description="" dont_start_server="false" backoff_time="1000" options="2" reg_filter="0" active_family="All" gdb_before_conn="" gdb_after_conn="monitor reset halt&#x0D;&#x0A;monitor stm32f1x mass_erase 0&#x0D;&#x0A;load&#x0D;&#x0A;monitor reset halt&#x0D;&#x0A;">
+						<family_options family_id="All">
+							<option opt_id="ID_CMD_BEFORE" opt_value="" />
+							<option opt_id="ID_GDB_SERVER_CL" opt_value="" />
+							<option opt_id="ID_CMD_RESET" opt_value="monitor reset halt&#x0A;" />
+							<option opt_id="ID_SERVER_TERMINATE" opt_value="0" />
+							<option opt_id="ID_CMD_AFTER" opt_value="" />
+						</family_options>
+					</debug_interface>
+					<debug_interface interface_id="OpenOCD" ip_address="" ip_port="" path="" executable="" description="" dont_start_server="false" backoff_time="" options="0" reg_filter="0" active_family="" gdb_before_conn="" gdb_after_conn="" />
+					<debug_interface interface_id="ST-link" ip_address="localhost" ip_port="4242" path="${EMBITZ}\share\contrib" executable="STLinkGDB.exe" description="" dont_start_server="false" backoff_time="1000" options="0" reg_filter="0" active_family="STMicroelectronics" gdb_before_conn="" gdb_after_conn="">
+						<family_options family_id="STMicroelectronics">
+							<option opt_id="ID_JTAG_SWD" opt_value="swd" />
+							<option opt_id="ID_VECTOR_START" opt_value="0x08000000" />
+							<option opt_id="ID_RESET_TYPE" opt_value="System" />
+							<option opt_id="ID_LOAD_PROGRAM" opt_value="1" />
+							<option opt_id="ID_SEMIHOST_CHECK" opt_value="0" />
+							<option opt_id="ID_RAM_EXEC" opt_value="0" />
+							<option opt_id="ID_VEC_TABLE" opt_value="1" />
+							<option opt_id="ID_DONT_CONN_RESET" opt_value="0" />
+							<option opt_id="ID_ALL_MODE_DEBUG" opt_value="0" />
+							<option opt_id="ID_DEV_ADDR" opt_value="" />
+							<option opt_id="ID_VERBOSE_LEVEL" opt_value="3" />
+						</family_options>
+					</debug_interface>
+				</target_debugging_settings>
+				<target_debugging_settings target="Release" active_interface="ST-link">
+					<debug_interface interface_id="Generic" ip_address="localhost" ip_port="3333" path="c:\cygwin\usr\openocd\bin\" executable="openocd.exe" description="" dont_start_server="false" backoff_time="" options="0" reg_filter="0" active_family="All" gdb_before_conn="" gdb_after_conn="">
+						<family_options family_id="All" />
+					</debug_interface>
+					<debug_interface interface_id="ST-link" ip_address="localhost" ip_port="4242" path="${EMBITZ}\share\contrib" executable="STLinkGDB.exe" description="" dont_start_server="false" backoff_time="1000" options="0" reg_filter="0" active_family="STMicroelectronics" gdb_before_conn="" gdb_after_conn="">
+						<family_options family_id="STMicroelectronics">
+							<option opt_id="ID_JTAG_SWD" opt_value="swd" />
+							<option opt_id="ID_RESET_TYPE" opt_value="System" />
+							<option opt_id="ID_VECTOR_START" opt_value="0x08000000" />
+							<option opt_id="ID_LOAD_PROGRAM" opt_value="1" />
+							<option opt_id="ID_RAM_EXEC" opt_value="0" />
+							<option opt_id="ID_VEC_TABLE" opt_value="1" />
+							<option opt_id="ID_DEV_ADDR" opt_value="" />
+							<option opt_id="ID_VERBOSE_LEVEL" opt_value="3" />
+						</family_options>
+					</debug_interface>
+				</target_debugging_settings>
+			</debugger>
+		</Extensions>
+	</Project>
+</EmBitz_project_file>
